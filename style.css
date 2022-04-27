@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    color: #717171;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0e8aff;
+}
+
+header h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    outline: none;
+}
+
+#nasc {
+    border: 1px solid #000;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#resTxt {
+    text-align: center;
+    font: 400 20px Arial;
+
+}
+
+#resImg {
+    width: 250px;
+    height: 250px;
+    margin: 30px 0 0 0;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #FFF;
+}
+
+
+
+
+
+
+
+/* REMOVE AS SETAS DO INPUT NUMBER */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+
+}
+/* REMOVE AS SETAS DO INPUT NUMBER */
